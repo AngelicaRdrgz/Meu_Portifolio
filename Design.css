@@ -5,41 +5,47 @@
     border-radius: 50%;
 }
 
-.avatar_img{
-height: 100%;
-width: 100%;
-border-radius: 50%;
 
-}
-
-.articulos{
-    display: inline-flex;
+.container {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+   background-color: rgb(255, 255, 255);
 
 }
+
+.avatar_img{
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+    }
 
 .about{
-    line-height: 10;
+    align-content: center;
     text-justify: auto;
-    align-items: flex-end;
     border-style: solid;
-
-
 }
 
 .works {
+    flex-direction: row;
     align-content: center;
     align-items: center;
+
 }
 
 .projects{
-    display: flex;
-    justify-content: flex-end;
+    align-content: center
+    ;
     
 }
 
 .rodape{
-    justify-content: flex-end;
+    align-items: flex-end;
+
+  
 
  
 
